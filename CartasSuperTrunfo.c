@@ -53,7 +53,7 @@ struct Brasil estado[4];
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     
-        sprintf("estado[0]codigo_carta, "%C %d", estado[0].codigo_cidade, estado[0].codigo_estado);
+        //sprintf("estado[0]codigo_carta, "%C %d", estado[0].codigo_cidade, estado[0].codigo_estado);
         printf("Codigo do estado e: %c\n", estado[0].codigo_estado);
         printf("Código da cidade e: %d\n", estado[0].codigo_cidade);
         printf("Nome da cidade: %s\n", estado[0].cidade);
